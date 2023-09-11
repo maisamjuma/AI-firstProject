@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap");
+/* font-family: 'Alegreya', serif;   font-family: 'Dancing Script', cursive;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Dancing+Script:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ec8fc9;
+}
+
+.container {
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(122, 6, 70),
+    rgb(250, 161, 213)
+  );
+  padding: 10px;
+}
+
+.nav-list {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  list-style-type: none;
+  margin: 0;
+  padding-left: 100px;
+}
+.nav-list li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(51, 1, 36);
+}
+
+.nav-list li {
+  transition: background-color 0.4s ease;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Alegreya", serif;
+  text-transform: capitalize;
+}
+
+.logo img {
+  height: 40px;
+}
+.image-container {
+  display: flex;
+  padding-top: 90px;
+
+  margin-left: 0px;
+}
+
+.image-container img {
+  flex: 1; /* Distribute the available space equally among images */
+  object-fit: contain; /* Maintain the aspect ratio of the images */
+  width: 400px; /* Set the width to occupy the entire space */
+  height: 400px; /* Automatically adjust the height based on the aspect ratio */
+}
+
+.p1container {
+  display: flex;
+  padding-top: 70px;
+  padding-left: 200px;
+  white-space: nowrap;
+}
+
+.p1container p {
+  font-family: "Alegreya", serif;
+  text-transform: capitalize;
+  color: black;
+  display: inline-block;
+  margin-right: 630px; /* Adjust the margin to create a 100px space */
+  text-shadow: 2px 2px 2px white;
+  font-size: 25px;
+}
+
+.p2container {
+  display: flex;
+  text-shadow: 2px 2px 2px white;
+  font-size: 25px;
+
+  font-family: "Alegreya", serif;
+  text-transform: capitalize;
+  padding-top: 60px;
+  padding-left: 200px;
+  white-space: nowrap;
+}
+.p2container p {
+  display: inline-block;
+
+  margin-right: 720px; /* Adjust the margin to create a 100px space */
+}
+.p3container {
+  display: flex;
+  text-shadow: 2px 2px 2px white;
+  font-size: 25px;
+
+  font-family: "Alegreya", serif;
+  text-transform: capitalize;
+  padding-top: 60px;
+  padding-left: 200px;
+  white-space: nowrap;
+}
+.p3container p {
+  margin-right: 430px;
+  display: inline-block;
+}
